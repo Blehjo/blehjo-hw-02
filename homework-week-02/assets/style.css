@@ -18,8 +18,15 @@ header {
     padding: 1%;
     background-color: #13293d;
     color: #fff;
-    text-decoration: underline;
   }
+
+section .picture1 {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: 30%;
+    background-position: center;
+}
 
 h1 {
     font-size: 200%;
@@ -35,14 +42,19 @@ h1 {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    text-decoration: underline;
 }
 
 nav a {
     color: #b9C6ae;
     font-weight: bold;
     text-decoration: none;
+    width: 125px;
+    height: 125px;
+    border: 1px solid white; 
   }
-main {
+
+section .main, .aboutme, .applications .contactinformation {
     max-width: 800px;
     margin: 2% auto;
   }

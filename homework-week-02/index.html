@@ -1,38 +1,77 @@
+<!-- Providing basic html to get started.  Entered "!" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- Title of the website in tab/ window -->
     <title>Bleh Seton's Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+    <!-- Creating the header of the page. -->
     <header>
-        <h1>Portfolio</h1>
+        <head>Bleh Seton's Portfolio</head>
+        <!-- Navigation bar with lists and their "hrefs" in order to navigate to different sections of the page-->
         <nav>
-          <ul>
+          <ul class="navigation">
               <li>
-                  <a href="#Home">Home</a>
+                  <a href="#main">Main</a>
               </li>
               <li>
-                  <a href="#Work">Work</a>
+                  <a href="#aboutme">About Me</a>
               </li>
               <li>
-                  <a href="#AboutMe">About Me</a>
+                  <a href="#applications">Applications</a>
               </li>
               <li>
-                  <a href="#ContactInformation">Contact Information</a>
+                  <a href="#contactinformation">Contact</a>
             </li>
         </ul>  
         </nav>
-
-        <section>
-            
-        </section>
-
     </header>
+
+    <main>
+        <section>
+            <!-- Home image.  Adding a little flavor to our page -->
+            <img class="picture1" src="https://data.whicdn.com/images/318126323/original.jpg" alt="Placeholder">
+        </section>
+        <section>
+            <div id="main">
+                <h1>Main</h1>
+                <img src="" alt="Photo of Bleh">
+                <p>This page is the portfolio of software engineer, Bleh Seton.  You will find several applications he has created along with contact information and a brief about me.</p>
+            </div>
+        </section>
+        <section id="aboutme">
+            <h1>About Me</h1>
+            <p>My name is Bleh Seton, pronounced like "blay seaton," and I am working on becoming a software engineer.  My family is from west Africa, Guinea and Liberia.  I studied finance at the University of Illinois at Chicago and spent half my academic career in Germany.  Currently, I am a research navigator at NORC located in Chicago, Illinois.  When I am not at work you can catch me playing video games, painting on whatever I can find, and rating a new restaurant.</p>
+        </section>
+        <section>
+            <div id="applications" class="applications">
+                <h1>Applications</h1>
+                <img src="" id="" alt="Photo of my first application">
+                <img src="" id="" alt="Photo of my second application">
+                <img src="" id="" alt="Photo of my third application">
+                <img src="" id="" alt="Photo of my fourth application">
+                <img src="" id="" alt="Photo of my fourth application">
+                <p></p>
+            </div>
+        </section>
+        <section>
+            <div id="contactinformation">
+                <h1>Contact Me</h1>
+                <ul class="contacts">
+                    <li>Phone</li>
+                    <li>Email</li>
+                    <li>Linkedin</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
 
 
