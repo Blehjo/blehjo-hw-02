@@ -1,34 +1,130 @@
-.contacts {
+* {
+    box-sizing: border-box;
+  }
+
+/* Including multiple fonts in case the user doesn't have one */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
+    margin: auto;
+    display: flex; 
+    flex-direction: column;
+}
+
+/* Giving the header characteristics that make it stand out. Giving the children elements padding. */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #13293d;
+    color: #fff;
+    padding-left: 15px; 
+    padding-top: 15px;
+    padding-bottom:5px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+}
+
+/* Makes the ul list horizontal */
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Adds a margin to each listed item, so that there is space between each option */
+nav li {
+    margin-right: 20px;
+}
+
+
+h1 {
+    font-size: 200%;
+}
+
+
+.applicationstag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image, .profileimage, .headimage {
+    width: 20%;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+/* section {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: table;
+    margin: 0 auto;
+}
+
+.navigation {
+    min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+.navigation li {
+    display: inline;
+} */
+
+/* .navigation {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    text-decoration: underline;
+} */
+
+/* .contacts {
     display: flex;
     flex-direction: inline;
     justify-content: space-evenly;
     text-decoration: underline;
-}
+} */
 
-body {
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-}
+/* section .profileimage {
+    width: 40%;
+    height: auto;
+} */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: #13293d;
-    color: #fff;
-  }
 
-section .picture1 {
+
+/* section {
+  display: flex;
+  flex-direction: row;
+  /* Centers along the main axis determined by flex-direction */
+  /*justify-content: center;
+  /* Centers along the opposite axis */
+  /* align-items: center;
+  width: 90%;
+  /* Uses the height of the viewport */
+  /* height: 100vh;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px; 
+}*/
+
+
+/* section .profileimage {
+    width: 10%;
+    height: auto;
+}   */
+
+/* section .picture1 {
     height: 100%;
     width: 100%;
     margin-bottom: 25px;
     background-size: 30%;
     background-position: center;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 200%;
     border: solid;
     border-color: rgb(67, 67, 255);
@@ -36,33 +132,28 @@ h1 {
     max-width: 300px;
     text-align: center;
     align-items: center;
-}
+} */
 
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    text-decoration: underline;
-}
 
-nav a {
+
+/* nav a {
     color: #b9C6ae;
     font-weight: bold;
     text-decoration: none;
     width: 125px;
     height: 125px;
     border: 1px solid white; 
-  }
+} */
 
-section .main, .aboutme, .applications .contactinformation {
+/* section .main, .aboutme, .applications .contactinformation {
     max-width: 800px;
     margin: 2% auto;
-  }
+  } */
 
 
 
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     header, main {
       flex-direction: column;
     }
@@ -75,4 +166,4 @@ section .main, .aboutme, .applications .contactinformation {
       width: 100%;
       text-align: center;
     }
-  }
+  } */
