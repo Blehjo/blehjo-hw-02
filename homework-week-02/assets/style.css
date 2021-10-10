@@ -8,6 +8,7 @@ body {
     line-height: 32px;
     display: flex; 
     flex-direction: column;
+    margin: 50px 50px 50px 50px;
 }
 
 /* Giving the header characteristics that make it stand out. Giving the children elements padding. */
@@ -38,13 +39,16 @@ nav li {
     text-decoration-thickness: 10px;
 }
 
-a {
+/* Class I assigned to the navigation bar, so that I could change the color of the text and give it my own decoration */
+.top {
     text-decoration: none;
+    color: white;
 }
+
+/*  */
 .homeimage .picture1 {
     width: 100%;
     height: auto;
-    /*background-image: url("../images/digital-marketing-meeting.jpg");*/
     background-size: 30%;
     background-position: center;
 }
@@ -66,14 +70,6 @@ section h1 {
     color: white;
 }
 
-p {
-    margin: 0px 250px 0px 250px;
-}
-.applicationstag {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .profileimage {
     margin-bottom: -75px;
     width: 20%;
@@ -81,11 +77,38 @@ p {
     align-items: center;
 }
 
-.image, .headimage {
-    width: 20%;
+p {
+    margin: 0px 250px 0px 250px;
+}
+/* .applicationstag {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.headimage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
     height: auto;
     align-items: center;
+    margin: 0px 250px 0px 250px;
+    border: solid black;
+    border-width: 10px 10px 10px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    height: auto;
     margin: auto;
+    border: solid black;
+    border-width: 10px 10px 10px 10px;
 }
 
 div .contacts {
@@ -95,10 +118,21 @@ div .contacts {
 }
 
 div li {
+    display: flex;
+    justify-content: center;
     margin-right: 200px;
     text-decoration: underline rgb(54, 72, 105);
     text-decoration-thickness: 15px;
+    color: black;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 100px;
+}
+
 /* section {
     display: flex;
     justify-content: center;

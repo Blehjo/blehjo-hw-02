@@ -14,22 +14,22 @@
     <!-- Creating the header of the page. -->
     <header>
         <head>
-            <a href="#applications">Bleh Seton's Portfolio</a>
+            <a class="top" href="#applications">Bleh Seton's Portfolio</a>
         </head>
         <!-- Navigation bar with lists and their "hrefs" in order to navigate to different sections of the page-->
         <nav>
           <ul class="navigation">
               <li>
-                  <a href="#main">Main</a>
+                  <a class="top" href="#first">Main</a>
               </li>
               <li>
-                  <a href="#aboutme">About Me</a>
+                  <a class="top" href="#aboutme">About Me</a>
               </li>
               <li>
-                  <a href="#applications">Applications</a>
+                  <a class="top" href="#applications">Applications</a>
               </li>
               <li>
-                  <a href="#contactinformation">Contact</a>
+                  <a class="top" href="#contactinformation">Contact</a>
             </li>
         </ul>  
         </nav>
@@ -43,7 +43,7 @@
         <section>
             <div id="first">
                 <h1>Main</h1>
-                <img src="./assets/profileimage.png" class="profileimage" alt="Photo of Bleh">
+                <img src="./assets/images/profileimage.png" class="profileimage" alt="Photo of Bleh">
                 <p>This page is the portfolio of aspiring software engineer, Bleh Seton.  You will find several applications he has created along with contact information and a brief about me.</p>
             </div>
         </section>
@@ -54,30 +54,61 @@
         <section>
             <div id="applications" class="applications">
                 <h1>Applications</h1>
-                <img src="./assets/application1.png" id="application1" class="headimage" alt="Photo of my first application">
+                <span>
+                    <a href="https://blehjo.github.io/blehjo-hw-01/homework-week-1/index.html">
+                        <img src="./assets/images/digital-marketing-meeting.jpg" id="application1" class="headimage" alt="Photo of my first application">
+                    </a>
+                </span>
             </div>
             <div class="applicationstag">
-                <img src="./assets/application2.png" id="application2" class="image" alt="Photo of my second application">
-                <img src="./assets/application3.png" id="application3" class="image" alt="Photo of my third application">
-                <img src="./assets/application4.png" id="application4" class="image" alt="Photo of my fourth application">
-                <img src="./assets/application5.png" id="application5" class="image" alt="Photo of my fourth application">
+                <!-- Adding span and an a attribute to the photos in my applications section, so that they can lead to my assignments. -->
+                <span>
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img src="./assets/images/application2.png" id="application2" class="image" alt="Photo of my second application">
+                    </a>
+                </span>
+                <span>
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img src="./assets/images/application3.png" id="application3" class="image" alt="Photo of my third application">
+                    </a>
+                </span>
+                <span>
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img src="./assets/images/application4.png" id="application4" class="image" alt="Photo of my fourth application">
+                    </a>
+                </span>
+                <span>
+                    <a href="http://www.facebook.com" target="_blank">
+                        <img src="./assets/images/application1.png" id="application1" class="image" alt="Photo of my fourth application">
+                    </a>
+                </span>
                 <p></p>
             </div>
         </section>
         <section>
+            <!-- Contact information in an unordered list that I will manipulate in css -->
             <div id="contactinformation">
                 <h1>Contact Me</h1>
                 <ul class="contacts">
+                    <!-- Making listed items clickable, so whoever is interested can navigate to those contacts -->
                     <li>Phone</li>
                     <li>Email</li>
-                    <li>Linkedin</li>
-                    <li>Github</li>
+                    <span>
+                        <a href="https://www.linkedin.com/in/bleh-seton-08a6b2148/">
+                            <li>Linkedin</li>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://github.com/Blehjo?tab=repositories">
+                            <li>Github</li>
+                        </a>
+                    </span>
                 </ul>
             </div>
         </section>
     </main>
 
-
+    <footer>Thank you for visiting!</footer>
 
 
 
