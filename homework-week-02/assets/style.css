@@ -6,7 +6,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 32px;
-    margin: auto;
     display: flex; 
     flex-direction: column;
 }
@@ -29,31 +28,77 @@ header {
 nav ul {
     display: flex;
     flex-direction: row;
+    
 }
 
 /* Adds a margin to each listed item, so that there is space between each option */
 nav li {
     margin-right: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+.homeimage .picture1 {
+    width: 100%;
+    height: auto;
+    /*background-image: url("../images/digital-marketing-meeting.jpg");*/
+    background-size: 30%;
+    background-position: center;
+}
 
-h1 {
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+section h1 {
+    display: flex;
+    justify-content: start;
     font-size: 200%;
+    margin-bottom: 20px;
+    background: cornflowerblue;
+    max-width: 100%;
+    color: white;
 }
 
-
+p {
+    margin: 0px 250px 0px 250px;
+}
 .applicationstag {
     display: flex;
     flex-wrap: wrap;
 }
 
-.image, .profileimage, .headimage {
+.profileimage {
+    margin-bottom: -75px;
+    width: 20%;
+    height: auto;
+    align-items: center;
+}
+
+.image, .headimage {
     width: 20%;
     height: auto;
     align-items: center;
     margin: auto;
 }
 
+div .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div li {
+    margin-right: 200px;
+    text-decoration: underline rgb(54, 72, 105);
+    text-decoration-thickness: 15px;
+}
 /* section {
     display: flex;
     justify-content: center;
