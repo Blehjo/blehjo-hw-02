@@ -13,9 +13,9 @@
 <body>
     <!-- Creating the header of the page. -->
     <header>
-        <head>
+        <section>
             <a class="top" href="#applications">Bleh Seton's Portfolio</a>
-        </head>
+        </section>
         <!-- Navigation bar with lists and their "hrefs" in order to navigate to different sections of the page-->
         <nav>
           <ul class="navigation">
@@ -36,19 +36,19 @@
     </header>
 
     <main>
-        <section class="homeimage">
+        <section>
             <!-- Home image.  Adding a little flavor to our page -->
             <img class="picture1" src="https://data.whicdn.com/images/318126323/original.jpg" alt="Placeholder">
         </section>
         <section>
             <div id="first">
                 <h1>Main</h1>
-                <img src="./assets/images/profileimage.png" class="profileimage" alt="Photo of Bleh">
                 <p>This page is the portfolio of aspiring software engineer, Bleh Seton.  You will find several applications he has created along with contact information and a brief about me.</p>
             </div>
         </section>
         <section id="aboutme">
             <h1>About Me</h1>
+            <img src="./assets/images/profileimage.png" class="profileimage" alt="Photo of Bleh">
             <p>My name is Bleh Seton, pronounced like "blay seaton," and I am working on becoming a software engineer.  My family is from west Africa, Guinea and Liberia.  I studied finance at the University of Illinois at Chicago and spent half my academic career in Germany.  Currently, I am a research navigator at NORC located in Chicago, Illinois.  When I am not at work you can catch me playing video games, painting on whatever I can find, and rating a new restaurant.</p>
         </section>
         <section>
@@ -56,7 +56,12 @@
                 <h1>Applications</h1>
                 <span>
                     <a href="https://blehjo.github.io/blehjo-hw-01/homework-week-1/index.html">
-                        <img src="./assets/images/digital-marketing-meeting.jpg" id="application1" class="headimage" alt="Photo of my first application">
+                        <div class="work">
+                            <img src="./assets/images/digital-marketing-meeting.jpg" id="application1" class="headimage" alt="Photo of my first application">
+                            <div class="works">
+                                Horiseon
+                            </div>
+                        </div>
                     </a>
                 </span>
             </div>

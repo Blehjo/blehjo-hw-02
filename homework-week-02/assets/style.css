@@ -19,10 +19,14 @@ header {
     color: #fff;
     padding-left: 15px; 
     padding-top: 15px;
-    padding-bottom:5px;
+    padding-bottom:15px;
     text-align: center;
     background: #13293d;
     color: #fff;
+}
+
+section .top {
+    font-size: 150%;
 }
 
 /* Makes the ul list horizontal */
@@ -45,8 +49,8 @@ nav li {
     color: white;
 }
 
-/*  */
-.homeimage .picture1 {
+/*Header picture */
+.picture1 {
     width: 100%;
     height: auto;
     background-size: 30%;
@@ -71,10 +75,11 @@ section h1 {
 }
 
 .profileimage {
-    margin-bottom: -75px;
+    margin-top: -20px;
     width: 20%;
     height: auto;
     align-items: center;
+    float: right;
 }
 
 p {
@@ -85,19 +90,33 @@ p {
     flex-wrap: wrap;
 } */
 
+/* First application photo */
 .headimage {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin: none;
     height: auto;
-    align-items: center;
-    margin: 0px 250px 0px 250px;
     border: solid black;
     border-width: 10px 10px 10px 10px;
 }
 
 a {
     text-decoration: none;
+    color: black;
+}
+
+.work {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.works {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 50px;
 }
 
 a .image {
@@ -107,6 +126,9 @@ a .image {
     width: 20%;
     height: auto;
     margin: auto;
+    margin-left: 50px;
+    float: left;
+    padding: 5px;
     border: solid black;
     border-width: 10px 10px 10px 10px;
 }
@@ -114,13 +136,13 @@ a .image {
 div .contacts {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 300px;
 }
 
 div li {
     display: flex;
-    justify-content: center;
-    margin-right: 200px;
     text-decoration: underline rgb(54, 72, 105);
     text-decoration-thickness: 15px;
     color: black;
@@ -130,109 +152,34 @@ footer {
     display: flex;
     justify-content: center;
     color: black;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-/* section {
-    display: flex;
-    justify-content: center;
+/* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+header, main {
+    flex-direction: column;
+    }
+
+    section {
+    padding-right: 0;
+    }
 }
-
-nav {
-    display: table;
-    margin: 0 auto;
-}
-
-.navigation {
-    min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-}
-
-.navigation li {
-    display: inline;
-} */
-
-/* .navigation {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    text-decoration: underline;
-} */
-
-/* .contacts {
-    display: flex;
-    flex-direction: inline;
-    justify-content: space-evenly;
-    text-decoration: underline;
-} */
-
-/* section .profileimage {
-    width: 40%;
-    height: auto;
-} */
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+    /* Change the header color */
+    header {
+      background: #8ac4ff;
+    }
+  }
+  
 
 
-
-/* section {
-  display: flex;
-  flex-direction: row;
-  /* Centers along the main axis determined by flex-direction */
-  /*justify-content: center;
-  /* Centers along the opposite axis */
-  /* align-items: center;
-  width: 90%;
-  /* Uses the height of the viewport */
-  /* height: 100vh;
-  margin: 0 auto;
-  border-style: solid;
-  border-width: 2px; 
-}*/
-
-
-/* section .profileimage {
-    width: 10%;
-    height: auto;
-}   */
-
-/* section .picture1 {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: 30%;
-    background-position: center;
-} */
-
-/* h1 {
-    font-size: 200%;
-    border: solid;
-    border-color: rgb(67, 67, 255);
-    border-right-width: 2em;
-    max-width: 300px;
-    text-align: center;
-    align-items: center;
-} */
-
-
-
-/* nav a {
-    color: #b9C6ae;
-    font-weight: bold;
-    text-decoration: none;
-    width: 125px;
-    height: 125px;
-    border: 1px solid white; 
-} */
-
-/* section .main, .aboutme, .applications .contactinformation {
-    max-width: 800px;
-    margin: 2% auto;
-  } */
-
-
-
-
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header, main {
       flex-direction: column;
     }
@@ -240,9 +187,14 @@ nav {
     section {
       padding-right: 0;
     }
-  
-    aside {
-      width: 100%;
-      text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    header, main {
+      flex-direction: column;
     }
-  } */
+  
+    section {
+      padding-right: 0;
+    }
+}
