@@ -17,3 +17,5 @@ https://blehjo.github.io/blehjo-hw-02/homework-week-02/index.html
 Link to my repository:
 
 https://github.com/Blehjo/blehjo-hw-02
+
+<img width="1267" alt="Screen Shot 2021-10-11 at 4 03 49 PM" src="https://user-images.githubusercontent.com/89440573/136855572-ec8ba32d-c338-4672-9211-cf8120d1618b.png">
