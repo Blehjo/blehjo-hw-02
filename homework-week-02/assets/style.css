@@ -99,6 +99,7 @@ p {
     height: auto;
     border: solid black;
     border-width: 10px 10px 10px 10px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -117,6 +118,60 @@ a {
     bottom: 8px;
     left: 16px;
     font-size: 50px;
+    background: rgb(54, 72, 105);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.apps1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* Make the width of box same as image */
+}
+
+.apps1 .text1 {
+    position: absolute;
+    top: 170px;
+    left: 65px;
+    font-size: 15px;
+    background: rgb(54, 72, 105);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+}
+
+.apps1 .text2 {
+    position: absolute;
+    top: 236px;
+    left: 348px;
+    font-size: 15px;
+    background: rgb(54, 72, 105);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+}
+
+.apps1 .text3 {
+    position: absolute;
+    top: 236px;
+    left: 631px;
+    font-size: 15px;
+    background: rgb(54, 72, 105);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 50px;
+}
+
+.apps1 .text4 {
+    position: absolute;
+    top: 128px;
+    left: 914px;
+    font-size: 15px;
+    background: rgb(54, 72, 105);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 50px;
 }
 
 a .image {
@@ -162,9 +217,13 @@ header, main {
     flex-direction: column;
     }
 
-    section {
+    /* section {
     padding-right: 0;
-    }
+    } */
+
+    /* .applicationstag {
+        width: 100%
+    } */
 }
   
   /* Cards are stacked on top of each other at 768px or smaller */
@@ -201,12 +260,3 @@ header, main {
     }
 }
 
-@media screen and (max-width: 600px) {
-    header, main {
-      flex-direction: column;
-    }
-  
-    section {
-      padding-right: 0;
-    }
-}
