@@ -10,133 +10,97 @@
     <!-- Title of the website in tab/ window -->
     <title>Bleh Seton's Portfolio</title>
 </head>
+
 <body>
     <!-- Creating the header of the page. -->
     <header>
         <section>
-            <a class="top" href="#applications">Bleh Seton's Portfolio</a>
+            <a href="#applications">Bleh Seton's Portfolio</a>
         </section>
         <!-- Navigation bar with lists and their "hrefs" in order to navigate to different sections of the page-->
         <nav>
-          <ul class="navigation">
-              <li>
-                  <a class="top" href="#first">Main</a>
-              </li>
-              <li>
-                  <a class="top" href="#aboutme">About Me</a>
-              </li>
-              <li>
-                  <a class="top" href="#applications">Applications</a>
-              </li>
-              <li>
-                  <a class="top" href="#contactinformation">Contact</a>
-            </li>
-        </ul>  
+            <ul class="navigation">
+                <li>
+                    <a href="#first">Main</a>
+                </li>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li>
+                    <a href="#applications">Applications</a>
+                </li>
+                <li>
+                    <a href="#contactinformation">Contact</a>
+                </li>
+            </ul>  
         </nav>
     </header>
 
     <main>
         <section>
             <!-- Home image.  Adding a little flavor to our page -->
-            <img class="picture1" src="https://data.whicdn.com/images/318126323/original.jpg" alt="Painting of a sunset">
+            <img class="mainpic" src="https://data.whicdn.com/images/318126323/original.jpg" alt="Painting of a sunset">
+        </section>
+        <!-- Creating sections in our page, so that it is possible to navigate from the nav bar to sections. -->
+        <section>
+            <h1 id="first">Main</h1>
+            <p class="aboutmep">This page is the portfolio of aspiring software engineer, Bleh Seton.  You will find several applications he has created along with contact information and a brief about me.</p>
         </section>
         <section>
-            <div id="first">
-                <h1>Main</h1>
-                <p>This page is the portfolio of aspiring software engineer, Bleh Seton.  You will find several applications he has created along with contact information and a brief about me.</p>
-            </div>
-        </section>
-        <section id="aboutme">
-            <h1>About Me</h1>
+            <h1 id="aboutme">About Me</h1>
             <img src="./assets/images/profileimage.png" class="profileimage" alt="Photo of Bleh behind a stack of blocks by Donald Judd">
-            <p>My name is Bleh Seton, pronounced like "blay seaton," and I am working on becoming a software engineer.  My family is from west Africa, Guinea and Liberia.  I studied finance at the University of Illinois at Chicago and spent half my academic career in Germany.  Currently, I am a research navigator at NORC located in Chicago, Illinois.  When I am not at work you can catch me playing video games, painting on whatever I can find, and rating a new restaurant.</p>
+            <p class="me">My name is Bleh Seton, pronounced like "blay seaton," and I am working on becoming a software engineer.  My family is from west Africa, Guinea and Liberia.  I studied finance at the University of Illinois at Chicago and spent half my academic career in Germany.<span class="br"></span>  Currently, I am a research navigator at NORC located in Chicago, Illinois.  When I am not at work you can catch me playing video games, painting on whatever I can find, and rating a new restaurant.</p>
         </section>
         <section>
-            <div id="applications" class="applications">
-                <h1>Applications</h1>
-                <span>
-                    <a href="https://blehjo.github.io/blehjo-hw-01/homework-week-1/index.html">
-                        <div class="work">
-                            <img src="./assets/images/digital-marketing-meeting.jpg" id="application1" class="headimage" alt="Photo of my first application">
-                            <div class="works">
-                                Horiseon
-                            </div>
-                        </div>
-                    </a>
-                </span>
-            </div>
-            <div class="applicationstag">
-                <!-- Adding span and an a attribute to the photos in my applications section, so that they can lead to my assignments. -->
-                <span>
-                    <a href="http://www.facebook.com" target="_blank">
-                        <div class="apps1">
-                            <img src="./assets/images/application2.png" id="application2" class="image" alt="Photo of my second application">
-                            <div class="text1">
-                            <h2>Application 2</h2>
-                            </div>
-                        </div>
-                    </a>
-                </span>
-                <span>
-                    <a href="http://www.facebook.com" target="_blank">
-                        <div class="apps1">
-                            <img src="./assets/images/application3.png" id="application3" class="image" alt="Photo of my third application">
-                            <div class="text2">
-                            <h2>Application 3</h2>
-                            </div>
-                        </div>
-                    </a>
-                </span>
-                <span>
-                    <a href="http://www.facebook.com" target="_blank">
-                        <div class="apps1">
-                            <img src="./assets/images/application4.png" id="application4" class="image" alt="Photo of my fourth application">
-                            <div class="text3">
-                            <h2>Application 4</h2>
-                            </div>
-                        </div>
-                    </a>
-                </span>
-                <span>
-                    <a href="http://www.facebook.com" target="_blank">
-                        <div class="apps1">
-                            <img src="./assets/images/application1.png" id="application1" class="image" alt="Photo of my fourth application">
-                            <div class="text4">
-                            <h2>Application 5</h2>
-                            </div>
-                        </div>
-                    </a>
-                </span>
-                <p></p>
+            <div>
+                <h1 id="applications" >Applications</h1>
+                <div class="work">
+                    <a href="https://blehjo.github.io/blehjo-hw-01/homework-week-1/index.html"><img src="./assets/images/digital-marketing-meeting.jpg" id="application1" class="headimage" alt="Photo of my first application"></a>
+                    <p>Horiseon</p>
+                </div>
             </div>
         </section>
-        <section class="contacts2">
+        <div class="products">
+            <section class="applicationstag">
+                <!-- Adding an a attribute to the photos in my applications section, so that they can lead to my assignments. -->
+                <a href="http://www.facebook.com" target="_blank"><img src="./assets/images/application2.png" id="application2" class="image" alt="Photo of my second application"></a>
+                <p>Application 2</p>
+            </section>
+            <section class="applicationstag">
+                <a href="http://www.facebook.com" target="_blank"><img src="./assets/images/application3.png" id="application3" class="image" alt="Photo of my third application"></a>
+                <p>Application 3</p>
+            </section>
+            <section class="applicationstag">
+                <a href="http://www.facebook.com" target="_blank"><img src="./assets/images/application4.png" id="application4" class="image" alt="Photo of my fourth application"></a>
+                <div class="text3">
+                <p>Application 4</p>
+            </section>
+            <section class="applicationstag">
+                <a href="http://www.facebook.com" target="_blank"><img src="./assets/images/application1.png" id="application1" class="image" alt="Photo of my fourth application"></a>
+                <div class="text4">
+                <p>Application 5</p>
+            </section>
+        </div>
+        <section class="contacts">
             <!-- Contact information in an unordered list that I will manipulate in css -->
-            <div id="contactinformation">
-                <h1>Contact Me</h1>
-                <ul class="contacts">
-                    <!-- Making listed items clickable, so whoever is interested can navigate to those contacts -->
-                    <li>Phone</li>
-                    <li>Email</li>
-                    <span>
-                        <a href="https://www.linkedin.com/in/bleh-seton-08a6b2148/">
-                            <li>Linkedin</li>
-                        </a>
-                    </span>
-                    <span>
-                        <a href="https://github.com/Blehjo?tab=repositories">
-                            <li>Github</li>
-                        </a>
-                    </span>
-                </ul>
-            </div>
+            <h1 id="contactinformation">Contact Me</h1>
+            <ul class="contactlist">
+                <!-- Making listed items clickable, so whoever is interested can navigate to those contacts -->
+                <li>Phone</li>
+                <li>Email</li>
+                <a href="https://www.linkedin.com/in/bleh-seton-08a6b2148/">
+                <li>Linkedin</li>
+                </a>
+                <a href="https://github.com/Blehjo?tab=repositories">
+                <li>Github</li>
+                </a>
+            </ul>
         </section>
     </main>
 
     <footer>Thank you for visiting!</footer>
 
-
-
     <script src="script.js"></script>
 </body>
+
 </html>
