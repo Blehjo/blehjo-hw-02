@@ -18,4 +18,4 @@ Link to my repository:
 
 https://github.com/Blehjo/blehjo-hw-02
 
-<img width="1267" alt="Screen Shot 2021-10-11 at 4 03 49 PM" src="https://user-images.githubusercontent.com/89440573/136855572-ec8ba32d-c338-4672-9211-cf8120d1618b.png">
+<img width="1173" alt="Screen Shot 2021-10-13 at 3 30 11 PM" src="https://user-images.githubusercontent.com/89440573/137208261-354d84b8-f0ff-4e0f-91b5-0455f13778e9.png">
