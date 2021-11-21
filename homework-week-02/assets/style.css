@@ -109,8 +109,8 @@ section .work {
 .work p {
     text-align: center;
     font-size: 100px;
-    margin-top: -80px;
-    color: white;
+    /* margin-top: -80px;  */
+    color: black;
 }
 
 .image {
@@ -137,8 +137,8 @@ section .work {
 .products p {
     text-align: center;
     font-size: 20px;
-    margin-top: -52px;
-    color: white;
+    /* margin-top: -52px; */
+    color: black;
 }
 
 .products img {
@@ -181,8 +181,12 @@ nav li:hover {
     -webkit-filter: brightness(70%);
 }
 
-.applicationstag:hover {
+.applicationstag .image:hover {
     -webkit-filter: brightness(70%);
+}
+
+.applicationstag .github p:hover {
+    font-size: larger;
 }
 
 
