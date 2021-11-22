@@ -87,7 +87,7 @@ section .me {
     margin-bottom: 1em;
 }
 
-section .work {
+section #muvd {
     margin: auto;
     width: 75%;
 }
@@ -104,11 +104,13 @@ section .work {
 
 .work {
     padding-bottom: 60px;
-}
+} 
 
 .work p {
     text-align: center;
-    font-size: 100px;
+    font-size: 50px;
+    margin: auto;
+    padding: 1rem;
     /* margin-top: -80px;  */
     color: black;
 }
@@ -177,12 +179,16 @@ nav li:hover {
     font-size: larger;
 }
 
-.work:hover {
+.work img:hover {
     -webkit-filter: brightness(70%);
 }
 
 .applicationstag .image:hover {
     -webkit-filter: brightness(70%);
+}
+
+#muvdrepository p:hover {
+    font-size: 40px;
 }
 
 .applicationstag .github p:hover {
