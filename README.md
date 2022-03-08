@@ -12,10 +12,9 @@ In this application there is an index.html, reset.css, style.css, and script.js.
 
 Link to my application:
 
-https://blehjo.github.io/blehjo-hw-02/homework-week-02/index.html
+https://blehjo.github.io/portfolio
 
 Link to my repository:
 
-https://github.com/Blehjo/blehjo-hw-02
-
+https://github.com/Blehjo/portfolio
 <img width="1173" alt="Screen Shot 2021-10-13 at 3 30 11 PM" src="https://user-images.githubusercontent.com/89440573/137208261-354d84b8-f0ff-4e0f-91b5-0455f13778e9.png">
