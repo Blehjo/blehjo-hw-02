@@ -1,4 +1,4 @@
-# blehjo-hw-02
+# portfolio
 
 This application is a rough draft of my portfolio.
 
