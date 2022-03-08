@@ -12,7 +12,7 @@ In this application there is an index.html, reset.css, style.css, and script.js.
 
 Link to my application:
 
-https://blehjo.github.io/portfolio
+https://blehjo.github.io/portfolio/homework-week-02/index.html
 
 Link to my repository:
 
